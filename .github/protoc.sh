@@ -1,5 +1,5 @@
 #! /bin/bash
-set -e
+set -eexit 1
 
 PLATFORM=$(uname -p)
 
